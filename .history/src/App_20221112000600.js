@@ -6,7 +6,7 @@ export default function App() {
 
   //increase counter
   const increase = () => {
-    setCounter(count => count + 10);
+    setCounter(count => count + 1);
     console.log(counter)
   };
 
